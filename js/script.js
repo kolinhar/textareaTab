@@ -1,5 +1,7 @@
 const txtA = document.querySelector("#txtA");
-txtA.addEventListener("keydown", function (e) {
+txtA.addEventListener("keydown", Tabify);
+
+function Tabify(e){
     if (e.key === "Tab" || e.code === "Tab") {
         e.preventDefault();
 
@@ -12,4 +14,4 @@ txtA.addEventListener("keydown", function (e) {
 
         return false;
     }
-});
+}
