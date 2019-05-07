@@ -1,0 +1,23 @@
+/* Votre Style */
+
+ul {
+    background: #bbb;
+  }
+  li, [class*="grid"] > * {
+    background: #ccc;
+  }
+  header, footer {
+    background: #ddd;
+  }
+  main {
+    background: #eee;
+  }
+  aside {
+    background: #aaa;
+  }
+
+  textarea {
+    width: 100%;
+    background-color: darkgrey;
+    color: white;
+  }
